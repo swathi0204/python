@@ -1,0 +1,9 @@
+list=[2,9,8,7,6,5,4,3,1]
+n=len(list)//2
+a=list[:n]
+b=list[n:]
+a.sort()
+b.sort()
+c=a+b
+c.sort()
+print(c)
